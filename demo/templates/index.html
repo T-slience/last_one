@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="/static/vue.min.js"></script>
+    <script>
+        window.onload = function () {
+            var a = new Vue({
+                el: '#div',
+                delimiters:['[[',']]'],
+                data: {
+                    title: 'hello',
+
+                }
+            })
+        }
+
+    </script>
+
+</head>
+<body>
+<div id="div">
+    [[title ]]
+
+
+
+</div>
+</body>
+</html>
